@@ -1,18 +1,11 @@
 /* File: USCrimeApp.java
  * Author: Olivia-Mei McDowell
  * Date: 12-14-2020
- * Description: The USCrimeApp class reads in and parses a CSV file. The file name is passed as a command line argument.
- * When parsing, the method creates and returns an array list of USCrime objects, whose properties correspond to the column categories provided in the CSV file. 
- * The menu system is displayed at the command prompt, and continues to redisplay after results are returned or until Q is selected. 
- * The application provides statistical results on the following data:
- * 	   - Population growth in percentages (consecutive and non-consecutive year ranges)
- * 	   - *Added functionality* The program allows the user to enter the desired year range for population growth assessment.
- * 	   - Years where the maximum and minimum murder rates occurred. 
- * 	   - Years where the maximum and minimum robbery rates occurred.
- * 	   - *Added functionality* Years where the maximum and minimum vehicle theft rates occurred.
- * The user is able to enter input without worrying about case, and input may also contain leading and trailing white spaces - the program will handle it. 
- * For invalid user input, the program will continue to re-prompt user until valid input is recognized. The program continues to prompt the user until “Q” or “q” is entered.
- * The program keeps track of the elapsed time (in seconds) between once the application starts and when the user quits the program.
+ * Description: The USCrimeApp class reads in and parses a CSV file.
+ * The menu system is displayed at the command prompt, and continues 
+ * to redisplay after results are returned or until Q is selected. 
+ * App provides statistical results on data options provided by UI menu.
+ * Time elapsed is tracked from user starting to user quitting program.
  */
 
 // Import required Java classes

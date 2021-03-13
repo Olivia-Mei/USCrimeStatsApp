@@ -1,10 +1,8 @@
 /* File: USCrime.java
  * Author: Olivia-Mei McDowell
  * Date: 12-14-2020
- * Description: The USCrime class stores the fields for USCrime objects. 
- * The USCrime class is referenced and used in the USCrimeApp class to 
- * create new state objects by passing corresponding array indexes through 
- * the USCrime constructor.
+ * Description: The USCrime class encapsulates 
+ * properties and functionality of US Crime objects.
  */
 
 public class USCrime {
